@@ -3,6 +3,7 @@
 
 body{
     width: 414px;
+    
     background-color: #E5E5E5;
 }
 
@@ -10,13 +11,32 @@ h1{
     font-family: 'Righteous', cursive;
 }
 
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 16px;
+}
+
+span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #A6A6A6;
+    font-size: 15px;
+}
+
 .topo{
+    position: fixed;
+    top: 0px;
+    left: 0px;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 414px;
     height: 92px;
     background-color:#CF2B2B;
-    background: #CF2B2B;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .titulo{
@@ -32,38 +52,103 @@ h1{
 }
 .box-conteudos{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 100%;
-    margin-top: 55px;
+    margin-top: 123px;
+    margin-left: 25px;
 }
 .box-conteudo-pratos{
     display: flex;
-}
-
-.conteudo-pedido{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 172px;
-    height: 216px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px;
-    margin-right: 25px;
+    width: 100%;
+    overflow-x: scroll;
 }
 
 .titulo-pedidos{
+    margin-bottom: 20px;
     font-size: 26px;
     color: #333333;
 }
 
 .box-pratos-comidas{
-    width: 363px;
+    width: 100%;
 }
 
 .box-Prato{
-    margin-left: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 216px;
+    height: 216px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    margin-right: 15px;
 }
+
+.box-Prato:hover{
+    cursor: pointer;
+    background-color: rgb(221, 219, 219);
+}
+
 .foto-pedido{
+    display: flex;
+    flex-direction: column;
+}
+.foto-pedido img{
+    margin-bottom: 8px;
+}
+.info-pedido{
+    width: 144px;
+    margin-top: 15px;
+}
+.preco-pedido{
+    margin-top: 20px;
+}
+
+/*PEDIDOS DE BEBIDAS*/
+
+.box-info-bebidas{
+    margin-top: 30px;
+    width: 100%;
+}
+.titulo-bebidas{
     margin-bottom: 20px;
+    font-size: 26px;
+    color: #333333;
+}
+
+.box-conteudo-bebidas{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.box-bebidas{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 216px;
+    height: 216px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    margin-right: 15px;
+}
+
+.box-bebidas:hover{
+    cursor: pointer;
+    background-color: rgb(221, 219, 219);
+}
+
+.foto-pedido{
+    display: flex;
+    flex-direction: column;
+}
+.foto-pedido img{
+    margin-bottom: 8px;
+}
+.info-pedido{
+    width: 144px;
+    margin-top: 15px;
+}
+.preco-pedido{
+    margin-top: 20px;
 }

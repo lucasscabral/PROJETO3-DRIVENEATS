@@ -15,179 +15,107 @@
             <span>Sua comida em 6 minutos</span>
         </div>
     </div>
-    <div class="box-conteudos">
+    <div id="cardapio" class="box-conteudos">
+        <div class="titulo-pratos">
+            <h1>Primeiro, seu prato</h1>
+        </div>
         <div class="box-pratos-comidas">
-            <div class="titulo-pedidos">
-                <h1>Primeiro, seu prato</h1>
+            <div id="pratos" class="box-conteudo-pratos" >
+                <div class="box-prato" onclick="escolherPedido(this)">
+                    <img src="/imagens/frango_yin_yang 1.svg" />
+                    <span>Frango frito</span>
+                    <p>Um pouco de batata, um pouco de salada</p> 
+                    <h2>R$ 10,90</h2>
+                </div>
+                <div class="box-prato" onclick="escolherPedido(this)">
+                    <img src="/imagens/frango_yin_yang 1.svg" />
+                    <span>Frango assado</span>
+                    <p>Um pouco de batata, um pouco de salada</p> 
+                    <h2>R$ 11,90</h2>
+                </div>
+                <div class="box-prato" onclick="escolherPedido(this)">
+                    <img src="/imagens/frango_yin_yang 1.svg" />
+                    <span>Frango Yin Yang</span>
+                    <p>Um pouco de batata, um pouco de salada</p> 
+                    <h2>R$ 12,90</h2>
+                </div>
+                <div class="box-prato" onclick="escolherPedido(this)"> 
+                    <img src="/imagens/frango_yin_yang 1.svg" />
+                    <span>Frango Yin Yang</span>
+                    <p>Um pouco de batata, um pouco de salada</p> 
+                    <h2>R$ 13,90</h2>
+                </div>
             </div>
-            <div class="box-conteudo-pratos">
-                    <div class="box-Prato">
-                        <div class="foto-pedido">
-                            <img src="imagens/frango_yin_yang 1.png" />
-                            <span>Frango Yin Yang</span>
-                        </div>
-                        <div class="info-pedido">
-                           <p>Um pouco de batata, um pouco de salada</p> 
-                        </div>
-                        <div class="preco-pedido">
-                            <h2>R$ 14,90</h2>
-                        </div>
-                    </div>
-                    <div class="box-Prato">
-                        <div class="foto-pedido">
-                            <img src="imagens/frango_yin_yang 1.png" />
-                            <span>Frango Yin Yang</span>
-                        </div>
-                        <div class="info-pedido">
-                           <p>Um pouco de batata, um pouco de salada</p> 
-                        </div>
-                        <div class="preco-pedido">
-                            <h2>R$ 14,90</h2>
-                        </div>
-                    </div>
-                    <div class="box-Prato">
-                        <div class="foto-pedido">
-                            <img src="imagens/frango_yin_yang 1.png" />
-                            <span>Frango Yin Yang</span>
-                        </div>
-                        <div class="info-pedido">
-                           <p>Um pouco de batata, um pouco de salada</p> 
-                        </div>
-                        <div class="preco-pedido">
-                            <h2>R$ 14,90</h2>
-                        </div>
-                    </div>
-                    <div class="box-Prato">
-                        <div class="foto-pedido">
-                            <img src="imagens/frango_yin_yang 1.png" />
-                            <span>Frango Yin Yang</span>
-                        </div>
-                        <div class="info-pedido">
-                           <p>Um pouco de batata, um pouco de salada</p> 
-                        </div>
-                        <div class="preco-pedido">
-                            <h2>R$ 14,90</h2>
-                        </div>
-                    </div>
-            </div>
+        </div>
+        <div class="titulo-bebidas">
+            <h1>Agora, sua bebida</h1>
         </div>
         <div class="box-info-bebidas">   
-            <div class="titulo-bebidas">
-                <h1>Agora, sua bebida</h1>
-            </div>
-            <div class="box-conteudo-bebidas">
-                <div class="box-bebidas">
-                    <div class="foto-pedido">
-                        <img src="imagens/coquinha_gelada 1.png" />
-                        <span>Coquinha gelada</span>
-                    </div>
-                    <div class="info-pedido">
-                       <p>Lata 350ml</p> 
-                    </div>
-                    <div class="preco-pedido">
-                        <h2>R$ 4,90</h2>
-                    </div>
+            <div id="bebidas" class="box-conteudo-bebidas">
+                <div class="box-bebidas " onclick="escolherPedido(this)">
+                    <img src="/imagens/coquinha_gelada 1.svg" />
+                    <span>Coquinha gelada</span>
+                    <p>Lata 350ml</p>
+                    <h2>R$ 4,90</h2>
                 </div>
-                <div class="box-bebidas">
-                    <div class="foto-pedido">
-                        <img src="imagens/coquinha_gelada 1.png" />
-                        <span>Coquinha gelada</span>
-                    </div>
-                    <div class="info-pedido">
-                       <p>Lata 350ml</p> 
-                    </div>
-                    <div class="preco-pedido">
-                        <h2>R$ 4,90</h2>
-                    </div>
+                <div class="box-bebidas " onclick="escolherPedido(this)">
+                    <img src="/imagens/coquinha_gelada 1.svg" />
+                    <span>Coquinha gelada</span>
+                    <p>Lata 350ml</p>
+                    <h2>R$ 4,90</h2>
                 </div>
-                <div class="box-bebidas">
-                    <div class="foto-pedido">
-                        <img src="imagens/coquinha_gelada 1.png" />
-                        <span>Coquinha gelada</span>
-                    </div>
-                    <div class="info-pedido">
-                       <p>Lata 350ml</p> 
-                    </div>
-                    <div class="preco-pedido">
-                        <h2>R$ 4,90</h2>
-                    </div>
+                <div class="box-bebidas" onclick="escolherPedido(this)">
+                    <img src="/imagens/coquinha_gelada 1.svg" />
+                    <span>Coquinha gelada</span>
+                    <p>Lata 350ml</p>
+                    <h2>R$ 4,90</h2>
                 </div>
-                <div class="box-bebidas">
-                    <div class="foto-pedido">
-                        <img src="imagens/coquinha_gelada 1.png" />
-                        <span>Coquinha gelada</span>
-                    </div>
-                    <div class="info-pedido">
-                       <p>Lata 350ml</p> 
-                    </div>
-                    <div class="preco-pedido">
-                        <h2>R$ 4,90</h2>
-                    </div>
+                <div class="box-bebidas" onclick="escolherPedido(this)">
+                    <img src="/imagens/coquinha_gelada 1.svg" />
+                    <span>Coquinha gelada</span>
+                    <p>Lata 350ml</p>
+                    <h2>R$ 4,90</h2>
                 </div>
             </div>
+        </div>
+        <div class="titulo-sobremesas">
+            <h1>Por fim, sua sobremesa</h1>
         </div>
         <div class="box-info-sobremesas">
-            <div class="titulo-sobremesas">
-                <h1>Por fim, sua sobremesa</h1>
-            </div>
-            <div class="box-conteudo-sobremesas">
-                <div class="box-sobremesas">
-                    <div class="foto-pedido">
-                        <img src="imagens/pudim 1.png" />
-                        <span>Pudim</span>
-                    </div>
-                    <div class="info-pedido">
-                       <p>Apenas pudim</p> 
-                    </div>
-                    <div class="preco-pedido">
-                        <h2>R$ 7,90</h2>
-                    </div>
+            <div  id="sobremesas"  class="box-conteudo-sobremesas">
+                <div class="box-sobremesas " onclick="escolherPedido(this)">
+                   <img src="/imagens/pudim 1.svg" />
+                   <span>Pudim</span>
+                   <p>Apenas pudim</p>
+                   <h2>R$ 7,90</h2>
                 </div>
-                <div class="box-sobremesas">
-                    <div class="foto-pedido">
-                        <img src="imagens/pudim 1.png" />
-                        <span>Pudim</span>
-                    </div>
-                    <div class="info-pedido">
-                       <p>Apenas pudim</p> 
-                    </div>
-                    <div class="preco-pedido">
-                        <h2>R$ 7,90</h2>
-                    </div>
+                <div class="box-sobremesas" onclick="escolherPedido(this)">
+                   <img src="/imagens/pudim 1.svg" />
+                   <span>Pudim</span>
+                   <p>Apenas pudim</p>
+                   <h2>R$ 7,90</h2>
                 </div>
-                <div class="box-sobremesas">
-                    <div class="foto-pedido">
-                        <img src="imagens/pudim 1.png" />
-                        <span>Pudim</span>
-                    </div>
-                    <div class="info-pedido">
-                       <p>Apenas pudim</p> 
-                    </div>
-                    <div class="preco-pedido">
-                        <h2>R$ 7,90</h2>
-                    </div>
+                <div class="box-sobremesas" onclick="escolherPedido(this)">
+                   <img src="/imagens/pudim 1.svg" />
+                   <span>Pudim</span>
+                   <p>Apenas pudim</p>
+                   <h2>R$ 7,90</h2>
                 </div>
-                <div class="box-sobremesas">
-                    <div class="foto-pedido">
-                        <img src="imagens/pudim 1.png" />
-                        <span>Pudim</span>
-                    </div>
-                    <div class="info-pedido">
-                       <p>Apenas pudim</p> 
-                    </div>
-                    <div class="preco-pedido">
-                        <h2>R$ 7,90</h2>
-                    </div>
+                <div class="box-sobremesas" onclick="escolherPedido(this)">
+                    <img src="/imagens/pudim 1.svg" />
+                    <span>Pudim</span>
+                    <p>Apenas pudim</p>
+                    <h2>R$ 7,90</h2>
                 </div>
             </div>
         </div>
     </div>
-    <div class="finalizar-pedido">
+   <div class="finalizar-pedido">
         <div class="box-finalizar-pedido">
-            <button>Selecione os 3 itens
-                para fechar o pedido
-            </button>
+            <button class="btn-finalizar-pedido">Selecione os 3 itens para fechar o pedido</button>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
